@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/dream/data/A004-LeetCode/LeetCode/C /leetcode/editor/cn/13-roman-to-integer.c" "/home/dream/data/A004-LeetCode/LeetCode/cmake-build-debug/CMakeFiles/13-roman-to-integer.dir/C_/leetcode/editor/cn/13-roman-to-integer.c.o"
+  "/home/dream/data/A004-LeetCode/LeetCode/C/leetcode/editor/cn/13-roman-to-integer.c" "/home/dream/data/A004-LeetCode/LeetCode/cmake-build-debug/CMakeFiles/13-roman-to-integer.dir/C/leetcode/editor/cn/13-roman-to-integer.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

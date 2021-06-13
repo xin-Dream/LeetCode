@@ -76,27 +76,27 @@ include CMakeFiles/13-roman-to-integer.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/13-roman-to-integer.dir/flags.make
 
-CMakeFiles/13-roman-to-integer.dir/C_/leetcode/editor/cn/13-roman-to-integer.c.o: CMakeFiles/13-roman-to-integer.dir/flags.make
-CMakeFiles/13-roman-to-integer.dir/C_/leetcode/editor/cn/13-roman-to-integer.c.o: ../C\ /leetcode/editor/cn/13-roman-to-integer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dream/data/A004-LeetCode/LeetCode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/13-roman-to-integer.dir/C_/leetcode/editor/cn/13-roman-to-integer.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/13-roman-to-integer.dir/C_/leetcode/editor/cn/13-roman-to-integer.c.o -c "/home/dream/data/A004-LeetCode/LeetCode/C /leetcode/editor/cn/13-roman-to-integer.c"
+CMakeFiles/13-roman-to-integer.dir/C/leetcode/editor/cn/13-roman-to-integer.c.o: CMakeFiles/13-roman-to-integer.dir/flags.make
+CMakeFiles/13-roman-to-integer.dir/C/leetcode/editor/cn/13-roman-to-integer.c.o: ../C/leetcode/editor/cn/13-roman-to-integer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dream/data/A004-LeetCode/LeetCode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/13-roman-to-integer.dir/C/leetcode/editor/cn/13-roman-to-integer.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/13-roman-to-integer.dir/C/leetcode/editor/cn/13-roman-to-integer.c.o -c /home/dream/data/A004-LeetCode/LeetCode/C/leetcode/editor/cn/13-roman-to-integer.c
 
-CMakeFiles/13-roman-to-integer.dir/C_/leetcode/editor/cn/13-roman-to-integer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/13-roman-to-integer.dir/C_/leetcode/editor/cn/13-roman-to-integer.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/dream/data/A004-LeetCode/LeetCode/C /leetcode/editor/cn/13-roman-to-integer.c" > CMakeFiles/13-roman-to-integer.dir/C_/leetcode/editor/cn/13-roman-to-integer.c.i
+CMakeFiles/13-roman-to-integer.dir/C/leetcode/editor/cn/13-roman-to-integer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/13-roman-to-integer.dir/C/leetcode/editor/cn/13-roman-to-integer.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dream/data/A004-LeetCode/LeetCode/C/leetcode/editor/cn/13-roman-to-integer.c > CMakeFiles/13-roman-to-integer.dir/C/leetcode/editor/cn/13-roman-to-integer.c.i
 
-CMakeFiles/13-roman-to-integer.dir/C_/leetcode/editor/cn/13-roman-to-integer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/13-roman-to-integer.dir/C_/leetcode/editor/cn/13-roman-to-integer.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/dream/data/A004-LeetCode/LeetCode/C /leetcode/editor/cn/13-roman-to-integer.c" -o CMakeFiles/13-roman-to-integer.dir/C_/leetcode/editor/cn/13-roman-to-integer.c.s
+CMakeFiles/13-roman-to-integer.dir/C/leetcode/editor/cn/13-roman-to-integer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/13-roman-to-integer.dir/C/leetcode/editor/cn/13-roman-to-integer.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dream/data/A004-LeetCode/LeetCode/C/leetcode/editor/cn/13-roman-to-integer.c -o CMakeFiles/13-roman-to-integer.dir/C/leetcode/editor/cn/13-roman-to-integer.c.s
 
 # Object files for target 13-roman-to-integer
 13__roman__to__integer_OBJECTS = \
-"CMakeFiles/13-roman-to-integer.dir/C_/leetcode/editor/cn/13-roman-to-integer.c.o"
+"CMakeFiles/13-roman-to-integer.dir/C/leetcode/editor/cn/13-roman-to-integer.c.o"
 
 # External object files for target 13-roman-to-integer
 13__roman__to__integer_EXTERNAL_OBJECTS =
 
-13-roman-to-integer: CMakeFiles/13-roman-to-integer.dir/C_/leetcode/editor/cn/13-roman-to-integer.c.o
+13-roman-to-integer: CMakeFiles/13-roman-to-integer.dir/C/leetcode/editor/cn/13-roman-to-integer.c.o
 13-roman-to-integer: CMakeFiles/13-roman-to-integer.dir/build.make
 13-roman-to-integer: CMakeFiles/13-roman-to-integer.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dream/data/A004-LeetCode/LeetCode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable 13-roman-to-integer"

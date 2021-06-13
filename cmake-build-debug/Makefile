@@ -142,32 +142,32 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-roman-to-integer.dir/build.make CMakeFiles/13-roman-to-integer.dir/build
 .PHONY : 13-roman-to-integer/fast
 
-C_/leetcode/editor/cn/13-roman-to-integer.o: C_/leetcode/editor/cn/13-roman-to-integer.c.o
+C/leetcode/editor/cn/13-roman-to-integer.o: C/leetcode/editor/cn/13-roman-to-integer.c.o
 
-.PHONY : C_/leetcode/editor/cn/13-roman-to-integer.o
+.PHONY : C/leetcode/editor/cn/13-roman-to-integer.o
 
 # target to build an object file
-C_/leetcode/editor/cn/13-roman-to-integer.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-roman-to-integer.dir/build.make CMakeFiles/13-roman-to-integer.dir/C_/leetcode/editor/cn/13-roman-to-integer.c.o
-.PHONY : C_/leetcode/editor/cn/13-roman-to-integer.c.o
+C/leetcode/editor/cn/13-roman-to-integer.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-roman-to-integer.dir/build.make CMakeFiles/13-roman-to-integer.dir/C/leetcode/editor/cn/13-roman-to-integer.c.o
+.PHONY : C/leetcode/editor/cn/13-roman-to-integer.c.o
 
-C_/leetcode/editor/cn/13-roman-to-integer.i: C_/leetcode/editor/cn/13-roman-to-integer.c.i
+C/leetcode/editor/cn/13-roman-to-integer.i: C/leetcode/editor/cn/13-roman-to-integer.c.i
 
-.PHONY : C_/leetcode/editor/cn/13-roman-to-integer.i
+.PHONY : C/leetcode/editor/cn/13-roman-to-integer.i
 
 # target to preprocess a source file
-C_/leetcode/editor/cn/13-roman-to-integer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-roman-to-integer.dir/build.make CMakeFiles/13-roman-to-integer.dir/C_/leetcode/editor/cn/13-roman-to-integer.c.i
-.PHONY : C_/leetcode/editor/cn/13-roman-to-integer.c.i
+C/leetcode/editor/cn/13-roman-to-integer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-roman-to-integer.dir/build.make CMakeFiles/13-roman-to-integer.dir/C/leetcode/editor/cn/13-roman-to-integer.c.i
+.PHONY : C/leetcode/editor/cn/13-roman-to-integer.c.i
 
-C_/leetcode/editor/cn/13-roman-to-integer.s: C_/leetcode/editor/cn/13-roman-to-integer.c.s
+C/leetcode/editor/cn/13-roman-to-integer.s: C/leetcode/editor/cn/13-roman-to-integer.c.s
 
-.PHONY : C_/leetcode/editor/cn/13-roman-to-integer.s
+.PHONY : C/leetcode/editor/cn/13-roman-to-integer.s
 
 # target to generate assembly for a file
-C_/leetcode/editor/cn/13-roman-to-integer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-roman-to-integer.dir/build.make CMakeFiles/13-roman-to-integer.dir/C_/leetcode/editor/cn/13-roman-to-integer.c.s
-.PHONY : C_/leetcode/editor/cn/13-roman-to-integer.c.s
+C/leetcode/editor/cn/13-roman-to-integer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-roman-to-integer.dir/build.make CMakeFiles/13-roman-to-integer.dir/C/leetcode/editor/cn/13-roman-to-integer.c.s
+.PHONY : C/leetcode/editor/cn/13-roman-to-integer.c.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 13-roman-to-integer"
-	@echo "... C_/leetcode/editor/cn/13-roman-to-integer.o"
-	@echo "... C_/leetcode/editor/cn/13-roman-to-integer.i"
-	@echo "... C_/leetcode/editor/cn/13-roman-to-integer.s"
+	@echo "... C/leetcode/editor/cn/13-roman-to-integer.o"
+	@echo "... C/leetcode/editor/cn/13-roman-to-integer.i"
+	@echo "... C/leetcode/editor/cn/13-roman-to-integer.s"
 .PHONY : help
 
 
