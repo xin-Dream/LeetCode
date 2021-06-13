@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/13roman-to-integer.dir/C_/leetcode/editor/cn/main.c.o -o 13roman-to-integer 
