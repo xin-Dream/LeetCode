@@ -1,3 +1,0 @@
-/home/dream/data/A004-LeetCode/LeetCode/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/dream/data/A004-LeetCode/LeetCode/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/dream/data/A004-LeetCode/LeetCode/cmake-build-debug/CMakeFiles/13-roman-to-integer.dir

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/001-Projects/010-LeetCode/LeetCode/C/leetcode/editor/cn/13-roman-to-integer.c
+stdio.h
+E:/001-Projects/010-LeetCode/LeetCode/C/leetcode/editor/cn/stdio.h
+string.h
+E:/001-Projects/010-LeetCode/LeetCode/C/leetcode/editor/cn/string.h
+stdlib.h
+E:/001-Projects/010-LeetCode/LeetCode/C/leetcode/editor/cn/stdlib.h
+

@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/LeetCode.dir/C_/leetcode/editor/cn/[13]罗马数字转整数.c.o -o LeetCode 
