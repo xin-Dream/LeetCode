@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/001-Projects/010-LeetCode/LeetCode/C/leetcode/editor/cn/1-two-sum.c
+stdio.h
+E:/001-Projects/010-LeetCode/LeetCode/C/leetcode/editor/cn/stdio.h
+

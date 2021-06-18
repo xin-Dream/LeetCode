@@ -129,6 +129,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 136-single-number
+
+# Build rule for target.
+136-single-number: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 136-single-number
+.PHONY : 136-single-number
+
+# fast build rule for target.
+136-single-number/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\136-single-number.dir\build.make CMakeFiles/136-single-number.dir/build
+.PHONY : 136-single-number/fast
+
+#=============================================================================
 # Target rules for targets named 7-reverse-integer
 
 # Build rule for target.
@@ -155,6 +168,19 @@ depend:
 .PHONY : 13-roman-to-integer/fast
 
 #=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+#=============================================================================
 # Target rules for targets named 1-two-sum
 
 # Build rule for target.
@@ -166,6 +192,19 @@ depend:
 1-two-sum/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1-two-sum.dir\build.make CMakeFiles/1-two-sum.dir/build
 .PHONY : 1-two-sum/fast
+
+#=============================================================================
+# Target rules for targets named 26-remove-duplicates-from-sorted-array
+
+# Build rule for target.
+26-remove-duplicates-from-sorted-array: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 26-remove-duplicates-from-sorted-array
+.PHONY : 26-remove-duplicates-from-sorted-array
+
+# fast build rule for target.
+26-remove-duplicates-from-sorted-array/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\26-remove-duplicates-from-sorted-array.dir\build.make CMakeFiles/26-remove-duplicates-from-sorted-array.dir/build
+.PHONY : 26-remove-duplicates-from-sorted-array/fast
 
 C/leetcode/editor/cn/1-two-sum.obj: C/leetcode/editor/cn/1-two-sum.c.obj
 
@@ -221,6 +260,60 @@ C/leetcode/editor/cn/13-roman-to-integer.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13-roman-to-integer.dir\build.make CMakeFiles/13-roman-to-integer.dir/C/leetcode/editor/cn/13-roman-to-integer.c.s
 .PHONY : C/leetcode/editor/cn/13-roman-to-integer.c.s
 
+C/leetcode/editor/cn/136-single-number.obj: C/leetcode/editor/cn/136-single-number.c.obj
+
+.PHONY : C/leetcode/editor/cn/136-single-number.obj
+
+# target to build an object file
+C/leetcode/editor/cn/136-single-number.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\136-single-number.dir\build.make CMakeFiles/136-single-number.dir/C/leetcode/editor/cn/136-single-number.c.obj
+.PHONY : C/leetcode/editor/cn/136-single-number.c.obj
+
+C/leetcode/editor/cn/136-single-number.i: C/leetcode/editor/cn/136-single-number.c.i
+
+.PHONY : C/leetcode/editor/cn/136-single-number.i
+
+# target to preprocess a source file
+C/leetcode/editor/cn/136-single-number.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\136-single-number.dir\build.make CMakeFiles/136-single-number.dir/C/leetcode/editor/cn/136-single-number.c.i
+.PHONY : C/leetcode/editor/cn/136-single-number.c.i
+
+C/leetcode/editor/cn/136-single-number.s: C/leetcode/editor/cn/136-single-number.c.s
+
+.PHONY : C/leetcode/editor/cn/136-single-number.s
+
+# target to generate assembly for a file
+C/leetcode/editor/cn/136-single-number.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\136-single-number.dir\build.make CMakeFiles/136-single-number.dir/C/leetcode/editor/cn/136-single-number.c.s
+.PHONY : C/leetcode/editor/cn/136-single-number.c.s
+
+C/leetcode/editor/cn/26-remove-duplicates-from-sorted-array.obj: C/leetcode/editor/cn/26-remove-duplicates-from-sorted-array.c.obj
+
+.PHONY : C/leetcode/editor/cn/26-remove-duplicates-from-sorted-array.obj
+
+# target to build an object file
+C/leetcode/editor/cn/26-remove-duplicates-from-sorted-array.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\26-remove-duplicates-from-sorted-array.dir\build.make CMakeFiles/26-remove-duplicates-from-sorted-array.dir/C/leetcode/editor/cn/26-remove-duplicates-from-sorted-array.c.obj
+.PHONY : C/leetcode/editor/cn/26-remove-duplicates-from-sorted-array.c.obj
+
+C/leetcode/editor/cn/26-remove-duplicates-from-sorted-array.i: C/leetcode/editor/cn/26-remove-duplicates-from-sorted-array.c.i
+
+.PHONY : C/leetcode/editor/cn/26-remove-duplicates-from-sorted-array.i
+
+# target to preprocess a source file
+C/leetcode/editor/cn/26-remove-duplicates-from-sorted-array.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\26-remove-duplicates-from-sorted-array.dir\build.make CMakeFiles/26-remove-duplicates-from-sorted-array.dir/C/leetcode/editor/cn/26-remove-duplicates-from-sorted-array.c.i
+.PHONY : C/leetcode/editor/cn/26-remove-duplicates-from-sorted-array.c.i
+
+C/leetcode/editor/cn/26-remove-duplicates-from-sorted-array.s: C/leetcode/editor/cn/26-remove-duplicates-from-sorted-array.c.s
+
+.PHONY : C/leetcode/editor/cn/26-remove-duplicates-from-sorted-array.s
+
+# target to generate assembly for a file
+C/leetcode/editor/cn/26-remove-duplicates-from-sorted-array.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\26-remove-duplicates-from-sorted-array.dir\build.make CMakeFiles/26-remove-duplicates-from-sorted-array.dir/C/leetcode/editor/cn/26-remove-duplicates-from-sorted-array.c.s
+.PHONY : C/leetcode/editor/cn/26-remove-duplicates-from-sorted-array.c.s
+
 C/leetcode/editor/cn/7-reverse-integer.obj: C/leetcode/editor/cn/7-reverse-integer.c.obj
 
 .PHONY : C/leetcode/editor/cn/7-reverse-integer.obj
@@ -248,6 +341,33 @@ C/leetcode/editor/cn/7-reverse-integer.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\7-reverse-integer.dir\build.make CMakeFiles/7-reverse-integer.dir/C/leetcode/editor/cn/7-reverse-integer.c.s
 .PHONY : C/leetcode/editor/cn/7-reverse-integer.c.s
 
+C/leetcode/editor/cn/test.obj: C/leetcode/editor/cn/test.c.obj
+
+.PHONY : C/leetcode/editor/cn/test.obj
+
+# target to build an object file
+C/leetcode/editor/cn/test.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/C/leetcode/editor/cn/test.c.obj
+.PHONY : C/leetcode/editor/cn/test.c.obj
+
+C/leetcode/editor/cn/test.i: C/leetcode/editor/cn/test.c.i
+
+.PHONY : C/leetcode/editor/cn/test.i
+
+# target to preprocess a source file
+C/leetcode/editor/cn/test.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/C/leetcode/editor/cn/test.c.i
+.PHONY : C/leetcode/editor/cn/test.c.i
+
+C/leetcode/editor/cn/test.s: C/leetcode/editor/cn/test.c.s
+
+.PHONY : C/leetcode/editor/cn/test.s
+
+# target to generate assembly for a file
+C/leetcode/editor/cn/test.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/C/leetcode/editor/cn/test.c.s
+.PHONY : C/leetcode/editor/cn/test.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -258,16 +378,28 @@ help:
 	@echo ... rebuild_cache
 	@echo ... 1-two-sum
 	@echo ... 13-roman-to-integer
+	@echo ... 136-single-number
+	@echo ... 26-remove-duplicates-from-sorted-array
 	@echo ... 7-reverse-integer
+	@echo ... test
 	@echo ... C/leetcode/editor/cn/1-two-sum.obj
 	@echo ... C/leetcode/editor/cn/1-two-sum.i
 	@echo ... C/leetcode/editor/cn/1-two-sum.s
 	@echo ... C/leetcode/editor/cn/13-roman-to-integer.obj
 	@echo ... C/leetcode/editor/cn/13-roman-to-integer.i
 	@echo ... C/leetcode/editor/cn/13-roman-to-integer.s
+	@echo ... C/leetcode/editor/cn/136-single-number.obj
+	@echo ... C/leetcode/editor/cn/136-single-number.i
+	@echo ... C/leetcode/editor/cn/136-single-number.s
+	@echo ... C/leetcode/editor/cn/26-remove-duplicates-from-sorted-array.obj
+	@echo ... C/leetcode/editor/cn/26-remove-duplicates-from-sorted-array.i
+	@echo ... C/leetcode/editor/cn/26-remove-duplicates-from-sorted-array.s
 	@echo ... C/leetcode/editor/cn/7-reverse-integer.obj
 	@echo ... C/leetcode/editor/cn/7-reverse-integer.i
 	@echo ... C/leetcode/editor/cn/7-reverse-integer.s
+	@echo ... C/leetcode/editor/cn/test.obj
+	@echo ... C/leetcode/editor/cn/test.i
+	@echo ... C/leetcode/editor/cn/test.s
 .PHONY : help
 
 
