@@ -17,6 +17,42 @@
 					<DistClean command="D:/052-MinGW/bin/mingw32-make.exe -f &quot;E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="202-happy-number">
+				<Option output="E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw/202-happy-number.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/052-MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/052-MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/052-MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/052-MinGW/bin/mingw32-make.exe -f &quot;E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 202-happy-number"/>
+					<CompileFile command="D:/052-MinGW/bin/mingw32-make.exe -f &quot;E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/052-MinGW/bin/mingw32-make.exe -f &quot;E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/052-MinGW/bin/mingw32-make.exe -f &quot;E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="202-happy-number/fast">
+				<Option output="E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw/202-happy-number.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/052-MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/052-MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/052-MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/052-MinGW/bin/mingw32-make.exe -f &quot;E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 202-happy-number/fast"/>
+					<CompileFile command="D:/052-MinGW/bin/mingw32-make.exe -f &quot;E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/052-MinGW/bin/mingw32-make.exe -f &quot;E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/052-MinGW/bin/mingw32-make.exe -f &quot;E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="136-single-number">
 				<Option output="E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw/136-single-number.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw"/>
@@ -120,16 +156,6 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="D:/052-MinGW/bin/mingw32-make.exe -f &quot;E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 13-roman-to-integer/fast"/>
-					<CompileFile command="D:/052-MinGW/bin/mingw32-make.exe -f &quot;E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/052-MinGW/bin/mingw32-make.exe -f &quot;E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/052-MinGW/bin/mingw32-make.exe -f &quot;E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="D:/052-MinGW/bin/mingw32-make.exe -f &quot;E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
 					<CompileFile command="D:/052-MinGW/bin/mingw32-make.exe -f &quot;E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/052-MinGW/bin/mingw32-make.exe -f &quot;E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/052-MinGW/bin/mingw32-make.exe -f &quot;E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
@@ -253,6 +279,16 @@
 					<DistClean command="D:/052-MinGW/bin/mingw32-make.exe -f &quot;E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/052-MinGW/bin/mingw32-make.exe -f &quot;E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/052-MinGW/bin/mingw32-make.exe -f &quot;E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/052-MinGW/bin/mingw32-make.exe -f &quot;E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/052-MinGW/bin/mingw32-make.exe -f &quot;E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="E:/001-Projects/010-LeetCode/LeetCode/C/leetcode/editor/cn/1-two-sum.c">
 			<Option target="1-two-sum"/>
@@ -262,6 +298,9 @@
 		</Unit>
 		<Unit filename="E:/001-Projects/010-LeetCode/LeetCode/C/leetcode/editor/cn/136-single-number.c">
 			<Option target="136-single-number"/>
+		</Unit>
+		<Unit filename="E:/001-Projects/010-LeetCode/LeetCode/C/leetcode/editor/cn/202-happy-number.c">
+			<Option target="202-happy-number"/>
 		</Unit>
 		<Unit filename="E:/001-Projects/010-LeetCode/LeetCode/C/leetcode/editor/cn/26-remove-duplicates-from-sorted-array.c">
 			<Option target="26-remove-duplicates-from-sorted-array"/>

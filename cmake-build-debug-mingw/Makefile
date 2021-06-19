@@ -74,17 +74,6 @@ CMAKE_BINARY_DIR = E:\001-Projects\010-LeetCode\LeetCode\cmake-build-debug-mingw
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\049-Clion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -95,6 +84,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"D:\049-Clion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -127,6 +127,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named 202-happy-number
+
+# Build rule for target.
+202-happy-number: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 202-happy-number
+.PHONY : 202-happy-number
+
+# fast build rule for target.
+202-happy-number/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\202-happy-number.dir\build.make CMakeFiles/202-happy-number.dir/build
+.PHONY : 202-happy-number/fast
 
 #=============================================================================
 # Target rules for targets named 136-single-number
@@ -287,6 +300,33 @@ C/leetcode/editor/cn/136-single-number.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\136-single-number.dir\build.make CMakeFiles/136-single-number.dir/C/leetcode/editor/cn/136-single-number.c.s
 .PHONY : C/leetcode/editor/cn/136-single-number.c.s
 
+C/leetcode/editor/cn/202-happy-number.obj: C/leetcode/editor/cn/202-happy-number.c.obj
+
+.PHONY : C/leetcode/editor/cn/202-happy-number.obj
+
+# target to build an object file
+C/leetcode/editor/cn/202-happy-number.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\202-happy-number.dir\build.make CMakeFiles/202-happy-number.dir/C/leetcode/editor/cn/202-happy-number.c.obj
+.PHONY : C/leetcode/editor/cn/202-happy-number.c.obj
+
+C/leetcode/editor/cn/202-happy-number.i: C/leetcode/editor/cn/202-happy-number.c.i
+
+.PHONY : C/leetcode/editor/cn/202-happy-number.i
+
+# target to preprocess a source file
+C/leetcode/editor/cn/202-happy-number.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\202-happy-number.dir\build.make CMakeFiles/202-happy-number.dir/C/leetcode/editor/cn/202-happy-number.c.i
+.PHONY : C/leetcode/editor/cn/202-happy-number.c.i
+
+C/leetcode/editor/cn/202-happy-number.s: C/leetcode/editor/cn/202-happy-number.c.s
+
+.PHONY : C/leetcode/editor/cn/202-happy-number.s
+
+# target to generate assembly for a file
+C/leetcode/editor/cn/202-happy-number.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\202-happy-number.dir\build.make CMakeFiles/202-happy-number.dir/C/leetcode/editor/cn/202-happy-number.c.s
+.PHONY : C/leetcode/editor/cn/202-happy-number.c.s
+
 C/leetcode/editor/cn/26-remove-duplicates-from-sorted-array.obj: C/leetcode/editor/cn/26-remove-duplicates-from-sorted-array.c.obj
 
 .PHONY : C/leetcode/editor/cn/26-remove-duplicates-from-sorted-array.obj
@@ -379,6 +419,7 @@ help:
 	@echo ... 1-two-sum
 	@echo ... 13-roman-to-integer
 	@echo ... 136-single-number
+	@echo ... 202-happy-number
 	@echo ... 26-remove-duplicates-from-sorted-array
 	@echo ... 7-reverse-integer
 	@echo ... test
@@ -391,6 +432,9 @@ help:
 	@echo ... C/leetcode/editor/cn/136-single-number.obj
 	@echo ... C/leetcode/editor/cn/136-single-number.i
 	@echo ... C/leetcode/editor/cn/136-single-number.s
+	@echo ... C/leetcode/editor/cn/202-happy-number.obj
+	@echo ... C/leetcode/editor/cn/202-happy-number.i
+	@echo ... C/leetcode/editor/cn/202-happy-number.s
 	@echo ... C/leetcode/editor/cn/26-remove-duplicates-from-sorted-array.obj
 	@echo ... C/leetcode/editor/cn/26-remove-duplicates-from-sorted-array.i
 	@echo ... C/leetcode/editor/cn/26-remove-duplicates-from-sorted-array.s

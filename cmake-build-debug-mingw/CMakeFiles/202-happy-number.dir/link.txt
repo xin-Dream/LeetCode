@@ -1,0 +1,3 @@
+"D:\049-Clion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\202-happy-number.dir/objects.a
+D:\052-MinGW\bin\ar.exe cr CMakeFiles\202-happy-number.dir/objects.a @CMakeFiles\202-happy-number.dir\objects1.rsp
+D:\052-MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\202-happy-number.dir/objects.a -Wl,--no-whole-archive -o 202-happy-number.exe -Wl,--out-implib,lib202-happy-number.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\202-happy-number.dir\linklibs.rsp
