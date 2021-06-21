@@ -53,4 +53,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/test.dir/DependInfo.cmake"
   "CMakeFiles/1-two-sum.dir/DependInfo.cmake"
   "CMakeFiles/26-remove-duplicates-from-sorted-array.dir/DependInfo.cmake"
+  "CMakeFiles/283-move-zeroes.dir/DependInfo.cmake"
   )

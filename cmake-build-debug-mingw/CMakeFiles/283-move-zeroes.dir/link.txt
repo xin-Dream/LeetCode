@@ -1,0 +1,3 @@
+"D:\049-Clion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\283-move-zeroes.dir/objects.a
+D:\052-MinGW\bin\ar.exe cr CMakeFiles\283-move-zeroes.dir/objects.a @CMakeFiles\283-move-zeroes.dir\objects1.rsp
+D:\052-MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\283-move-zeroes.dir/objects.a -Wl,--no-whole-archive -o 283-move-zeroes.exe -Wl,--out-implib,lib283-move-zeroes.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\283-move-zeroes.dir\linklibs.rsp

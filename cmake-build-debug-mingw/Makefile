@@ -219,6 +219,19 @@ test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\26-remove-duplicates-from-sorted-array.dir\build.make CMakeFiles/26-remove-duplicates-from-sorted-array.dir/build
 .PHONY : 26-remove-duplicates-from-sorted-array/fast
 
+#=============================================================================
+# Target rules for targets named 283-move-zeroes
+
+# Build rule for target.
+283-move-zeroes: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 283-move-zeroes
+.PHONY : 283-move-zeroes
+
+# fast build rule for target.
+283-move-zeroes/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\283-move-zeroes.dir\build.make CMakeFiles/283-move-zeroes.dir/build
+.PHONY : 283-move-zeroes/fast
+
 C/leetcode/editor/cn/1-two-sum.obj: C/leetcode/editor/cn/1-two-sum.c.obj
 
 .PHONY : C/leetcode/editor/cn/1-two-sum.obj
@@ -354,6 +367,33 @@ C/leetcode/editor/cn/26-remove-duplicates-from-sorted-array.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\26-remove-duplicates-from-sorted-array.dir\build.make CMakeFiles/26-remove-duplicates-from-sorted-array.dir/C/leetcode/editor/cn/26-remove-duplicates-from-sorted-array.c.s
 .PHONY : C/leetcode/editor/cn/26-remove-duplicates-from-sorted-array.c.s
 
+C/leetcode/editor/cn/283-move-zeroes.obj: C/leetcode/editor/cn/283-move-zeroes.c.obj
+
+.PHONY : C/leetcode/editor/cn/283-move-zeroes.obj
+
+# target to build an object file
+C/leetcode/editor/cn/283-move-zeroes.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\283-move-zeroes.dir\build.make CMakeFiles/283-move-zeroes.dir/C/leetcode/editor/cn/283-move-zeroes.c.obj
+.PHONY : C/leetcode/editor/cn/283-move-zeroes.c.obj
+
+C/leetcode/editor/cn/283-move-zeroes.i: C/leetcode/editor/cn/283-move-zeroes.c.i
+
+.PHONY : C/leetcode/editor/cn/283-move-zeroes.i
+
+# target to preprocess a source file
+C/leetcode/editor/cn/283-move-zeroes.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\283-move-zeroes.dir\build.make CMakeFiles/283-move-zeroes.dir/C/leetcode/editor/cn/283-move-zeroes.c.i
+.PHONY : C/leetcode/editor/cn/283-move-zeroes.c.i
+
+C/leetcode/editor/cn/283-move-zeroes.s: C/leetcode/editor/cn/283-move-zeroes.c.s
+
+.PHONY : C/leetcode/editor/cn/283-move-zeroes.s
+
+# target to generate assembly for a file
+C/leetcode/editor/cn/283-move-zeroes.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\283-move-zeroes.dir\build.make CMakeFiles/283-move-zeroes.dir/C/leetcode/editor/cn/283-move-zeroes.c.s
+.PHONY : C/leetcode/editor/cn/283-move-zeroes.c.s
+
 C/leetcode/editor/cn/7-reverse-integer.obj: C/leetcode/editor/cn/7-reverse-integer.c.obj
 
 .PHONY : C/leetcode/editor/cn/7-reverse-integer.obj
@@ -421,6 +461,7 @@ help:
 	@echo ... 136-single-number
 	@echo ... 202-happy-number
 	@echo ... 26-remove-duplicates-from-sorted-array
+	@echo ... 283-move-zeroes
 	@echo ... 7-reverse-integer
 	@echo ... test
 	@echo ... C/leetcode/editor/cn/1-two-sum.obj
@@ -438,6 +479,9 @@ help:
 	@echo ... C/leetcode/editor/cn/26-remove-duplicates-from-sorted-array.obj
 	@echo ... C/leetcode/editor/cn/26-remove-duplicates-from-sorted-array.i
 	@echo ... C/leetcode/editor/cn/26-remove-duplicates-from-sorted-array.s
+	@echo ... C/leetcode/editor/cn/283-move-zeroes.obj
+	@echo ... C/leetcode/editor/cn/283-move-zeroes.i
+	@echo ... C/leetcode/editor/cn/283-move-zeroes.s
 	@echo ... C/leetcode/editor/cn/7-reverse-integer.obj
 	@echo ... C/leetcode/editor/cn/7-reverse-integer.i
 	@echo ... C/leetcode/editor/cn/7-reverse-integer.s

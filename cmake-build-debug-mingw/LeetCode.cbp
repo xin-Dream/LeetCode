@@ -269,6 +269,42 @@
 					<DistClean command="D:/052-MinGW/bin/mingw32-make.exe -f &quot;E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="283-move-zeroes">
+				<Option output="E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw/283-move-zeroes.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/052-MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/052-MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/052-MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/052-MinGW/bin/mingw32-make.exe -f &quot;E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 283-move-zeroes"/>
+					<CompileFile command="D:/052-MinGW/bin/mingw32-make.exe -f &quot;E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/052-MinGW/bin/mingw32-make.exe -f &quot;E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/052-MinGW/bin/mingw32-make.exe -f &quot;E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="283-move-zeroes/fast">
+				<Option output="E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw/283-move-zeroes.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/052-MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/052-MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/052-MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/052-MinGW/bin/mingw32-make.exe -f &quot;E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 283-move-zeroes/fast"/>
+					<CompileFile command="D:/052-MinGW/bin/mingw32-make.exe -f &quot;E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/052-MinGW/bin/mingw32-make.exe -f &quot;E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/052-MinGW/bin/mingw32-make.exe -f &quot;E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="E:/001-Projects/010-LeetCode/LeetCode/cmake-build-debug-mingw"/>
 				<Option type="4"/>
@@ -304,6 +340,9 @@
 		</Unit>
 		<Unit filename="E:/001-Projects/010-LeetCode/LeetCode/C/leetcode/editor/cn/26-remove-duplicates-from-sorted-array.c">
 			<Option target="26-remove-duplicates-from-sorted-array"/>
+		</Unit>
+		<Unit filename="E:/001-Projects/010-LeetCode/LeetCode/C/leetcode/editor/cn/283-move-zeroes.c">
+			<Option target="283-move-zeroes"/>
 		</Unit>
 		<Unit filename="E:/001-Projects/010-LeetCode/LeetCode/C/leetcode/editor/cn/7-reverse-integer.c">
 			<Option target="7-reverse-integer"/>
