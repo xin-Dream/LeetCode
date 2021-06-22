@@ -14,3 +14,4 @@ add_executable(26-remove-duplicates-from-sorted-array C/leetcode/editor/cn/26-re
 add_executable(136-single-number C/leetcode/editor/cn/136-single-number.c)
 add_executable(202-happy-number C/leetcode/editor/cn/202-happy-number.c)
 add_executable(283-move-zeroes C/leetcode/editor/cn/283-move-zeroes.c)
+add_executable(122-best-time-to-buy-and-sell-stock-ii C/leetcode/editor/cn/122-best-time-to-buy-and-sell-stock-ii.c)

@@ -232,6 +232,19 @@ test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\283-move-zeroes.dir\build.make CMakeFiles/283-move-zeroes.dir/build
 .PHONY : 283-move-zeroes/fast
 
+#=============================================================================
+# Target rules for targets named 122-best-time-to-buy-and-sell-stock-ii
+
+# Build rule for target.
+122-best-time-to-buy-and-sell-stock-ii: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 122-best-time-to-buy-and-sell-stock-ii
+.PHONY : 122-best-time-to-buy-and-sell-stock-ii
+
+# fast build rule for target.
+122-best-time-to-buy-and-sell-stock-ii/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\122-best-time-to-buy-and-sell-stock-ii.dir\build.make CMakeFiles/122-best-time-to-buy-and-sell-stock-ii.dir/build
+.PHONY : 122-best-time-to-buy-and-sell-stock-ii/fast
+
 C/leetcode/editor/cn/1-two-sum.obj: C/leetcode/editor/cn/1-two-sum.c.obj
 
 .PHONY : C/leetcode/editor/cn/1-two-sum.obj
@@ -258,6 +271,33 @@ C/leetcode/editor/cn/1-two-sum.s: C/leetcode/editor/cn/1-two-sum.c.s
 C/leetcode/editor/cn/1-two-sum.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1-two-sum.dir\build.make CMakeFiles/1-two-sum.dir/C/leetcode/editor/cn/1-two-sum.c.s
 .PHONY : C/leetcode/editor/cn/1-two-sum.c.s
+
+C/leetcode/editor/cn/122-best-time-to-buy-and-sell-stock-ii.obj: C/leetcode/editor/cn/122-best-time-to-buy-and-sell-stock-ii.c.obj
+
+.PHONY : C/leetcode/editor/cn/122-best-time-to-buy-and-sell-stock-ii.obj
+
+# target to build an object file
+C/leetcode/editor/cn/122-best-time-to-buy-and-sell-stock-ii.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\122-best-time-to-buy-and-sell-stock-ii.dir\build.make CMakeFiles/122-best-time-to-buy-and-sell-stock-ii.dir/C/leetcode/editor/cn/122-best-time-to-buy-and-sell-stock-ii.c.obj
+.PHONY : C/leetcode/editor/cn/122-best-time-to-buy-and-sell-stock-ii.c.obj
+
+C/leetcode/editor/cn/122-best-time-to-buy-and-sell-stock-ii.i: C/leetcode/editor/cn/122-best-time-to-buy-and-sell-stock-ii.c.i
+
+.PHONY : C/leetcode/editor/cn/122-best-time-to-buy-and-sell-stock-ii.i
+
+# target to preprocess a source file
+C/leetcode/editor/cn/122-best-time-to-buy-and-sell-stock-ii.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\122-best-time-to-buy-and-sell-stock-ii.dir\build.make CMakeFiles/122-best-time-to-buy-and-sell-stock-ii.dir/C/leetcode/editor/cn/122-best-time-to-buy-and-sell-stock-ii.c.i
+.PHONY : C/leetcode/editor/cn/122-best-time-to-buy-and-sell-stock-ii.c.i
+
+C/leetcode/editor/cn/122-best-time-to-buy-and-sell-stock-ii.s: C/leetcode/editor/cn/122-best-time-to-buy-and-sell-stock-ii.c.s
+
+.PHONY : C/leetcode/editor/cn/122-best-time-to-buy-and-sell-stock-ii.s
+
+# target to generate assembly for a file
+C/leetcode/editor/cn/122-best-time-to-buy-and-sell-stock-ii.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\122-best-time-to-buy-and-sell-stock-ii.dir\build.make CMakeFiles/122-best-time-to-buy-and-sell-stock-ii.dir/C/leetcode/editor/cn/122-best-time-to-buy-and-sell-stock-ii.c.s
+.PHONY : C/leetcode/editor/cn/122-best-time-to-buy-and-sell-stock-ii.c.s
 
 C/leetcode/editor/cn/13-roman-to-integer.obj: C/leetcode/editor/cn/13-roman-to-integer.c.obj
 
@@ -457,6 +497,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... 1-two-sum
+	@echo ... 122-best-time-to-buy-and-sell-stock-ii
 	@echo ... 13-roman-to-integer
 	@echo ... 136-single-number
 	@echo ... 202-happy-number
@@ -467,6 +508,9 @@ help:
 	@echo ... C/leetcode/editor/cn/1-two-sum.obj
 	@echo ... C/leetcode/editor/cn/1-two-sum.i
 	@echo ... C/leetcode/editor/cn/1-two-sum.s
+	@echo ... C/leetcode/editor/cn/122-best-time-to-buy-and-sell-stock-ii.obj
+	@echo ... C/leetcode/editor/cn/122-best-time-to-buy-and-sell-stock-ii.i
+	@echo ... C/leetcode/editor/cn/122-best-time-to-buy-and-sell-stock-ii.s
 	@echo ... C/leetcode/editor/cn/13-roman-to-integer.obj
 	@echo ... C/leetcode/editor/cn/13-roman-to-integer.i
 	@echo ... C/leetcode/editor/cn/13-roman-to-integer.s

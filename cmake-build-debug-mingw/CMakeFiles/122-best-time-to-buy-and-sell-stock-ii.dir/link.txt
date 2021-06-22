@@ -1,0 +1,3 @@
+"D:\049-Clion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\122-best-time-to-buy-and-sell-stock-ii.dir/objects.a
+D:\052-MinGW\bin\ar.exe cr CMakeFiles\122-best-time-to-buy-and-sell-stock-ii.dir/objects.a @CMakeFiles\122-best-time-to-buy-and-sell-stock-ii.dir\objects1.rsp
+D:\052-MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\122-best-time-to-buy-and-sell-stock-ii.dir/objects.a -Wl,--no-whole-archive -o 122-best-time-to-buy-and-sell-stock-ii.exe -Wl,--out-implib,lib122-best-time-to-buy-and-sell-stock-ii.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\122-best-time-to-buy-and-sell-stock-ii.dir\linklibs.rsp
